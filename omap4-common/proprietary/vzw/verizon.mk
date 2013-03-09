@@ -18,7 +18,15 @@ $(call inherit, vendor/motorola/omap4-common/proprietary/vzw/Android.mk)
 
 PRODUCT_PACKAGES += \
 	appdirectedsmspermission \
+	VerizonSSOEngine \
 	VZWAPNLib \
 	vzwapnpermission \
 	VZWAPNService
 
+#Permissions and Lib for Verizon Wireless Apps
+PRODUCT_COPY_FILES += \
+    vendor/motorola/omap4-common/proprietary/vzw/com.vzw.hardware.ehrpd.xml:system/etc/permissions/com.vzw.hardware.ehrpd.xml \
+    vendor/motorola/omap4-common/proprietary/vzw/com.vzw.hardware.lte.xml:system/etc/permissions/com.vzw.hardware.lte.xml \
+    vendor/motorola/omap4-common/proprietary/vzw/com.vzw.vzwapnlib.xml:system/etc/permissions/com.vzw.vzwapnlib.xml \
+    vendor/motorola/omap4-common/proprietary/vzw/libmotricity.so:system/lib/libmotricity.so
+    
