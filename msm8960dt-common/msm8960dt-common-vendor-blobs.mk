@@ -62,6 +62,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8960dt-common/proprietary/bin/thermald:system/bin/thermald \
     vendor/motorola/msm8960dt-common/proprietary/lib/hw/audio.motvr.msm8960.so:system/lib/hw/audio.motvr.msm8960.so \
     vendor/motorola/msm8960dt-common/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
+    vendor/motorola/msm8960dt-common/proprietary/lib/hw/lights.msm8960.so:system/lib/hw/lights.msm8960.so \
     vendor/motorola/msm8960dt-common/proprietary/lib/hw/nfc.MSM8960.so:system/lib/hw/nfc.MSM8960.so \
     vendor/motorola/msm8960dt-common/proprietary/lib/hw/sensorhub.msm8960.so:system/lib/hw/sensorhub.msm8960.so \
     vendor/motorola/msm8960dt-common/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
