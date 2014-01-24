@@ -16,4 +16,6 @@
 
 # Pick up overlay for features that depend on non-open-source files
 
+PRODUCT_PACKAGES += libtime_genoff
+
 $(call inherit-product, vendor/motorola/qcom-common/qcom-common-vendor-blobs.mk)
